@@ -1,0 +1,17 @@
+.pageName {
+  margin: 25px 25px 25px 25px;
+  font-size: 50px;
+  text-align: center;
+}
+.nav {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.navRightItems {
+  display: flex;
+  margin-left: auto;
+}
+.navItems {
+  margin-left: 20px;
+}
