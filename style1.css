@@ -1,3 +1,4 @@
+/* Header */
 .pageName {
   margin: 25px 25px 25px 25px;
   font-size: 50px;
@@ -14,4 +15,35 @@
 }
 .navItems {
   margin-left: 20px;
+}
+
+/* WhyMe Image Carousel */
+.galleryContainer {
+  width: 100%;
+  height: 500px;
+  max-width: 1000px;
+  user-select: none;
+  box-shadow: 0px 0px 3px 1px black;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: auto;
+}
+.slideShowContainer {
+  width: 100%;
+  height: 90%;
+  overflow: hidden;
+  background-color: bisque;
+  position: relative;
+}
+.imageHolder {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.imageHoder img {
+  width: 100%;
+  height: 100%;
+}
+.captionText {
+  display: none;
 }
