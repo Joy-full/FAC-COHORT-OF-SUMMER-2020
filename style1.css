@@ -2,6 +2,7 @@
 body {
   margin: 25px;
   padding: 25px;
+  font-family: 'Roboto Mono', monospace;
 }
 
 /* Header */
@@ -52,7 +53,6 @@ body {
   border-radius: 70%;
   position: relative;
 }
-
 .WhoIAmPara {
   width: 700px;
   padding: 25px 25px 25px 50px;
@@ -60,13 +60,11 @@ body {
   color: #1F3960;
   position: relative;
 }
-
 #WhyMe {
   margin: 0 auto;
   margin-top: 60px;
   border: 5px solid #1F3960
 }
-
 #WhyMe h2 {
   color: #1F3960;
 }
@@ -101,12 +99,10 @@ body {
   display: block;
   margin: 0 auto;
 }
-
 #WhyFACcontainer img {
   width: 1164px;
   height: 600px;
 }
-
 #WhyFACinner {
   background: #1F3960;
   height: 100%;
@@ -136,7 +132,6 @@ body {
   position: relative;
   margin: auto;
 }
-
 .slides {
   display: none;
 }
@@ -144,18 +139,19 @@ body {
   position: absolute;
   padding: 8px, 12px;
   color: white;
+  font-weight: bold;
+  background-color: #1F3960;
 }
 .text{
   text-align: center;
-  font-size: 15px;
+  font-size: 25px;
   position: absolute;
   width: 100%;
   padding: 8px 16px;
   bottom: 8px;
-  color: white;
+  color: #1F3960;
   font-weight: bold;
 }
-
 .prev, .next {
   position: absolute;
   top: 50%;
@@ -177,7 +173,7 @@ body {
   width: 10px;
   height: 10px;
   display: inline-block;
-  background: gray;
+  background: #1F3960;
   padding: 5px;
   border-radius: 50%;
   cursor: pointer;
@@ -191,9 +187,14 @@ body {
   to{opacity: 1}
 }
 .active ,.dots:hover{
-  background: #333;
+  background: #1F3960;
 }
+
 /* Links */
+.lastWords, .contact {
+  color: #1F3960;
+  text-align: center;
+}
 .links {
   left: 0;
   bottom: 0;
@@ -219,4 +220,12 @@ span{
 
 h2 {
   text-align: center;
+}
+
+h3 {
+  width: 800px;
+  display: block;
+  margin: 0 auto;
+  color: #1F3960;
+  line-height: 20px;
 }
