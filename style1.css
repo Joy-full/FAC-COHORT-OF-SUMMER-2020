@@ -6,7 +6,7 @@ body {
 
 /* Header */
 .pageName {
-  margin: 25px 25px 25px 25px;
+  margin: 0px 25px 25px 25px;
   font-size: 70px;
   font-weight: bold;
   text-align: center;
@@ -19,24 +19,26 @@ body {
   height: 70px;
   display: flex;
   align-items: center;
+  padding-bottom: 40px;
 }
 .navRightItems {
   display: flex;
   margin-left: auto;
 }
 .navItems {
+  font-size: 20px;
   margin-left: 20px;
 }
 .navItems a {
-color: #1F3960;
-text-align: center;
-padding: 15px;
-text-decoration: none;
+  color: #1F3960;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
 }
 .navItems a:hover {
-color: #FF8000;
-text-decoration: none;
-cursor: pointer;     
+  color: #FF8000;
+  text-decoration: none;
+  cursor: pointer;     
 }
 
 
@@ -47,18 +49,26 @@ cursor: pointer;
 .WhoIAm img{
   width: 300px;
   height: auto;
+  border-radius: 70%;
+  position: relative;
 }
 
 .WhoIAmPara {
-  width: 600px;
-  padding: 25px 25px 25px 25px;
+  width: 700px;
+  padding: 25px 25px 25px 50px;
   margin-left: auto;
+  color: #1F3960;
+  position: relative;
 }
 
-/* Main */
 #WhyMe {
   margin: 0 auto;
   margin-top: 60px;
+  border: 5px solid #1F3960
+}
+
+#WhyMe h2 {
+  color: #1F3960;
 }
 
 /* WhyMe */
@@ -66,25 +76,55 @@ cursor: pointer;
   display: flex;
 }
 .WhyMePartsSub {
+  color: white;
   font-size: 1.5rem;
   background-color: #1F3960;
   text-align: center;
   height: 50px;
   line-height: 50px;
 }
-.WhyMePartsPara{
-  width: auto;
+.WhyMePartsPara {
+  width: 400px;
   height: auto;
-  border: 1px solid black;
+  border: 2px solid #1F3960;
   margin: 20px;
 }
-.WhyMePartsPara p{
+.WhyMePartsPara p {
   padding: 0px 10px 0px 10px;
 }
 
 /* WhyFAC */
-#WhyFAC{
-  ;
+#WhyFACcontainer {
+  width: 1164px;
+  height: 600px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+#WhyFACcontainer img {
+  width: 1164px;
+  height: 600px;
+}
+
+#WhyFACinner {
+  background: #1F3960;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 0;
+  transition: opacity .5s;
+}
+.WhyFACPara {
+  color: #fff;
+  font-size: 18px;
+}
+#WhyFACcontainer:hover #WhyFACinner {
+  opacity: .9;
+  transition: opacity .5s;
 }
 
 /* Links */
