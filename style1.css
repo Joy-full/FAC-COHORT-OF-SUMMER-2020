@@ -27,6 +27,18 @@ body {
 .navItems {
   margin-left: 20px;
 }
+.navItems a {
+color: #1F3960;
+text-align: center;
+padding: 15px;
+text-decoration: none;
+}
+.navItems a:hover {
+color: #FF8000;
+text-decoration: none;
+cursor: pointer;     
+}
+
 
 /* WhoIAm */
 .WhoIAm {
@@ -44,7 +56,7 @@ body {
 }
 
 /* Main */
-.main {
+#WhyMe {
   margin: 0 auto;
   margin-top: 60px;
 }
@@ -68,6 +80,11 @@ body {
 }
 .WhyMePartsPara p{
   padding: 0px 10px 0px 10px;
+}
+
+/* WhyFAC */
+#WhyFAC{
+  ;
 }
 
 /* Links */
