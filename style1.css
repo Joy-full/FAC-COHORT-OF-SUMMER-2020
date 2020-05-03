@@ -1,8 +1,17 @@
+/* body */
+body {
+  margin: 25px;
+  padding: 25px;
+}
+
 /* Header */
 .pageName {
   margin: 25px 25px 25px 25px;
   font-size: 50px;
+  font-weight: bold;
   text-align: center;
+  color: #1F3960;
+  /* text-shadow: 1px 1px 2px #FF8000; */
 }
 .nav {
   height: 70px;
@@ -16,7 +25,20 @@
 .navItems {
   margin-left: 20px;
 }
+/* WhoIAm */
+.WhoIAm {
+  display: flex;
+}
+.WhoIAm img{
+  width: 300px;
+  height: auto;
+}
 
+.WhoIAmPara {
+  width: 600px;
+  padding: 25px 25px 25px 25px;
+  margin-left: auto;
+}
 /* Links */
 .links {
   left: 0;
@@ -25,7 +47,7 @@
   height: 10%;
   display: flex;
   align-items: center;
-  background-color: black;
+  background-color: #1F3960;
   justify-content: center;
   position: fixed;
 }
@@ -34,4 +56,9 @@
   height: auto;
   margin: 20px;
   vertical-align: center;
+}
+
+span{
+  color:#FF8000;
+  font-weight: bold;
 }
